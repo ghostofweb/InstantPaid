@@ -32,41 +32,41 @@ const Hero = () => {
                 className="w-full object-cover"
               />
               {/* Gradient overlay for fade effect */}
-              <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent"></div>
+              <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-[#FFF7E9] via-[#F6F6F6] to-transparent opacity-80"></div>
             </div>
             
             {/* Cards positioned to overlap with the person image */}
-            <div className="absolute -left-32 top-2/4 z-10">
-              {/* Category card (top card) */}
-              <div className="mb-4 pl-10">
-                <img
-                  src={assets.categoryCard}
-                  alt="Category Card"
-                  className="w-64 shadow-md rounded-lg"
-                />
-              </div>
+            <div className="absolute -left-44 top-5/10 z-10">
+  {/* Category card (top card) */}
+  <div className="mb-4 pl-10">
+    <img
+      src={assets.categoryCard}
+      alt="Category Card"
+      className="w-64 shadow-md rounded-lg"
+    />
+  </div>
 
-              {/* Wrap the last two cards in a flex row */}
-              <div className="flex gap-4">
-                {/* Dashboard card with balance */}
-                <div>
-                  <img
-                    src={assets.balanceCard}
-                    alt="Balance Card"
-                    className="w-64 shadow-md rounded-lg"
-                  />
-                </div>
+  <div className="flex gap-4 relative -left-20">
+    {/* Dashboard card with balance */}
+    <div>
+      <img
+        src={assets.balanceCard}
+        alt="Balance Card"
+        className="w-64 shadow-md rounded-lg"
+      />
+    </div>
 
-                {/* Financial summary card (bottom) */}
-                <div>
-                  <img
-                    src={assets.monthlyCard}
-                    alt="Monthly Card"
-                    className="w-64 shadow-md rounded-lg"
-                  />
-                </div>
-              </div>
-            </div>
+    {/* Financial summary card (bottom) */}
+    <div>
+      <img
+        src={assets.monthlyCard}
+        alt="Monthly Card"
+        className="w-64 shadow-md rounded-lg"
+      />
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </div>

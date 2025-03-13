@@ -21,18 +21,18 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex flex-1 justify-center space-x-8 text-blackSecondary font-sans text-lg">
-          <a href="#" className="hover:text-primary transition-colors">Home</a>
-          <a href="#" className="hover:text-primary transition-colors">Features</a>
-          <a href="#" className="hover:text-primary transition-colors">Pricing</a>
-          <a href="#" className="hover:text-primary transition-colors">Blog</a>
+          <a href="#">Home</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Blog</a>
         </nav>
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex space-x-2">
-          <button className="border-2 border-[#6F38C9] text-[#6F38C9] font-sans px-6 py-2 rounded-full hover:bg-dark hover:border-dark hover:text-white transition-colors">
+          <button className="border-2 border-[#6F38C9] text-[#6F38C9] font-sans px-6 py-2 rounded-full">
             Sign up
           </button>
-          <button className="bg-[#6F38C9] text-white font-sans px-6 py-2 rounded-full hover:bg-dark transition-colors">
+          <button className="bg-[#6F38C9] text-white font-sans px-6 py-2 rounded-full">
             Login
           </button>
         </div>
@@ -87,18 +87,18 @@ const Header = () => {
 
           {/* Links */}
           <nav className="flex flex-col space-y-6 p-8 text-blackSecondary font-sans text-lg">
-            <a href="#" className="hover:text-primary transition-colors">Home</a>
-            <a href="#" className="hover:text-primary transition-colors">Features</a>
-            <a href="#" className="hover:text-primary transition-colors">Pricing</a>
-            <a href="#" className="hover:text-primary transition-colors">Blog</a>
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
           </nav>
 
           {/* Buttons */}
           <div className="flex flex-col space-y-4 p-8">
-            <button className="border border-btnhover text-blackSecondary font-sans px-4 py-3 rounded-full hover:bg-dark hover:border-dark hover:text-white transition-colors">
+            <button className="border border-primary font-sans px-4 py-3 rounded-full">
               Sign up
             </button>
-            <button className="bg-primary text-white font-sans px-4 py-3 rounded-full hover:bg-dark transition-colors">
+            <button className="bg-primary text-primary font-sans px-4 py-3 rounded-full">
               Login
             </button>
           </div>
