@@ -98,7 +98,7 @@ const Header = () => {
             <button className="border border-primary font-sans px-4 py-3 rounded-full">
               Sign up
             </button>
-            <button className="bg-primary text-white font-sans  px-4 py-3 rounded-full">
+            <button className="bg-primary text-white  font-sans  px-4 py-3 rounded-full">
               Login
             </button>
           </div>
