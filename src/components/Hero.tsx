@@ -13,9 +13,11 @@ const Hero = () => {
           Instant paid automates your invoicing, payments, and financial tracking—so you can focus on growing your business.
           </p>
           <div className="flex justify-center lg:justify-start">
-            <button className="bg-primary text-white font-sans px-6 py-3 rounded-full flex items-center space-x-2 hover:bg-dark transition-colors">
+            <button className="bg-black text-white font-sans px-6 py-3 rounded-full flex items-center space-x-2 hover:bg-dark transition-colors">
               <span>Get Started Free</span>
+              <div className='bg-white px-2 py-2 rounded-full'>
               <img src={assets.arrowRight} alt="Arrow Right" className="w-5 h-5" />
+              </div>
             </button>
           </div>
         </div>

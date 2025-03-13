@@ -13,8 +13,59 @@
     --color-secondary : #F6F6F6;
     --color-blackSecondary : #111111;
     --color-purpleSecondary: #6F38C9
+
 }
 
 body{
     background-color: #FFFBF3;
 }
+
+@layer utilities {
+    /* Custom Width & Height */
+    .w-cardWidth {
+      @apply w-[608px];
+    }
+    .h-cardHeight {
+      @apply h-[584px];
+    }
+  
+    /* Border Radius */
+    .rounded-card {
+      @apply rounded-[24px];
+    }
+  
+    /* Padding */
+    .p-cardPadding {
+      @apply p-[48px];
+    }
+  
+    /* Typography */
+    .text-title {
+      @apply text-[36px] font-semibold leading-[56px];
+    }
+    .text-subtitle {
+      @apply text-[20px] font-light leading-[100%] text-center;
+    }
+  
+    /* Colors */
+    .bg-darkGray {
+      @apply bg-[#404040];
+    }
+    .bg-black {
+      @apply bg-[#000000];
+    }
+    .bg-darkPrimary {
+      @apply bg-[#4F3F82];
+    }
+    .bg-lightPrimary {
+      @apply bg-[#9C83ED];
+    }
+  
+    /* Gradient Backgrounds */
+    .bg-left-gradient {
+      background: linear-gradient(to top, #404040, #000000);
+    }
+    .bg-right-gradient {
+      background: linear-gradient(to top, #9C83ED, #4F3F82);
+    }
+  }
