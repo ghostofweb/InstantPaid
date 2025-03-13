@@ -1,1 +1,19 @@
 @import "tailwindcss";
+@import "@fontsource/archivo";
+.font-sans {
+    font-family: 'Archivo', sans-serif;
+}
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+@theme {
+    --color-primary : #9C83ED;
+    --color-secondary : #F6F6F6;
+    --color-blackSecondary : #111111;
+    --color-btnhover: #6F38C9;
+}
+
+body{
+    background-color: #FFFBF3;
+}
